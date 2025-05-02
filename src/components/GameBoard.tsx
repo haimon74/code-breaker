@@ -1,6 +1,6 @@
 import React from 'react';
 import GuessRow from './GuessRow';
-import styles from '../styles/GameBoard.module.css';
+import styles from './styles/GameBoard.module.css';
 
 type GameBoardProps = {
   guesses: string[][];

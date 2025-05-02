@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from '../styles/FeedbackPegs.module.css';
+import styles from './styles/FeedbackPegs.module.css';
 
 type FeedbackPegsProps = {
   feedback?: { black: number; white: number };

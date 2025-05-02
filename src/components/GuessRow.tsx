@@ -1,6 +1,6 @@
 import React from 'react';
 import FeedbackPegs from './FeedbackPegs';
-import styles from '../styles/GuessRow.module.css';
+import styles from './styles/GuessRow.module.css';
 
 type GuessRowProps = {
   guess: string[];

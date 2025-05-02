@@ -2,7 +2,7 @@ import React, { useState, useMemo, useCallback } from 'react';
 import GameHeader from './GameHeader';
 import GameBoard from './GameBoard';
 import ColorPalette from './ColorPalette';
-import styles from '../styles/MastermindGame.module.css';
+import styles from './styles/MastermindGame.module.css';
 
 // Color palettes
 const COLOR_PALETTES = {
@@ -25,7 +25,7 @@ function getRandomCode(colors: string[], codeLength: number): string[] {
   return code;
 }
 
-const MastermindGame: React.FC = () => {
+const CodeBreakerGame: React.FC = () => {
   const [paletteName, setPaletteName] = useState<'rainbow' | 'contrast' | 'pastel'>('rainbow');
   const [codeLength, setCodeLength] = useState<number>(DEFAULT_CODE_LENGTH);
   const [secretCode, setSecretCode] = useState<string[]>(() => getRandomCode(COLOR_PALETTES['rainbow'], DEFAULT_CODE_LENGTH));
@@ -162,4 +162,4 @@ const MastermindGame: React.FC = () => {
   );
 };
 
-export default MastermindGame; 
+export default CodeBreakerGame; 

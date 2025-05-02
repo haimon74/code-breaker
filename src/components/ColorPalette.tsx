@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from '../styles/ColorPalette.module.css';
+import styles from './styles/ColorPalette.module.css';
 
 type ColorPaletteProps = {
   colors: string[];

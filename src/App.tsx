@@ -1,8 +1,8 @@
 import React from 'react';
-import MastermindGame from './components/MastermindGame';
+import CodeBreakerGame from './components/CodeBreakerGame';
 
 function App() {
-  return <MastermindGame />;
+  return <CodeBreakerGame />;
 }
 
 export default App;
