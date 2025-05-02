@@ -1,0 +1,36 @@
+.feedback {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  margin-left: 12px;
+  min-width: 48px;
+  justify-content: flex-start;
+  align-items: center;
+}
+.black {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: #222;
+  border: 2px solid #fff;
+  box-shadow: 0 1px 2px #0007;
+  display: inline-block;
+}
+.white {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: #fff;
+  border: 2px solid #ccc;
+  box-shadow: 0 1px 2px #0003;
+  display: inline-block;
+}
+.empty {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: #444;
+  border: 2px solid #222;
+  opacity: 0.3;
+  display: inline-block;
+} 

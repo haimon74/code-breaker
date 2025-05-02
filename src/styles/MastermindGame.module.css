@@ -1,0 +1,11 @@
+.mastermindGame {
+  background: #232733;
+  border-radius: 18px;
+  box-shadow: 0 4px 32px #0008;
+  padding: 32px 16px 24px 16px;
+  max-width: 420px;
+  margin: 32px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} 

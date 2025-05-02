@@ -1,0 +1,89 @@
+.header {
+  width: 100%;
+  margin-bottom: 18px;
+  text-align: center;
+  background: #232733;
+  border-radius: 14px;
+  box-shadow: 0 2px 12px #0004;
+  padding: 22px 0 16px 0;
+  position: relative;
+}
+.title {
+  font-size: 2.3rem;
+  font-weight: bold;
+  color: #f7faff;
+  margin-bottom: 12px;
+  letter-spacing: 2px;
+  text-shadow: 0 1px 2px #23273322;
+  background: none;
+  -webkit-background-clip: unset;
+  -webkit-text-fill-color: unset;
+  background-clip: unset;
+}
+.controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 22px;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+}
+.controls label {
+  color: #e0e6ff;
+  font-weight: 500;
+  font-size: 1.08rem;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.controls select {
+  border-radius: 6px;
+  border: 1px solid #2c7ce5;
+  padding: 2px 8px;
+  background: #232733;
+  color: #fff;
+  font-size: 1rem;
+  margin-left: 2px;
+}
+.controls button {
+  background: linear-gradient(90deg, #49cc5c 40%, #2c7ce5 100%);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 6px 18px;
+  font-weight: bold;
+  font-size: 1.08rem;
+  cursor: pointer;
+  box-shadow: 0 1px 4px #0003;
+  transition: background 0.2s, box-shadow 0.2s;
+}
+.controls button:hover {
+  background: linear-gradient(90deg, #f8c421 40%, #fb6640 100%);
+  box-shadow: 0 2px 8px #0005;
+}
+.timer {
+  font-family: monospace;
+  color: #f8c421;
+  font-size: 1.18rem;
+  background: #181a22;
+  border-radius: 6px;
+  padding: 2px 10px;
+  margin-left: 6px;
+  box-shadow: 0 1px 4px #0002;
+}
+.statusWin {
+  color: #49cc5c;
+  font-weight: bold;
+  margin-top: 10px;
+  font-size: 1.15rem;
+  letter-spacing: 1px;
+  text-shadow: 0 1px 4px #232733;
+}
+.statusLose {
+  color: #fb6640;
+  font-weight: bold;
+  margin-top: 10px;
+  font-size: 1.15rem;
+  letter-spacing: 1px;
+  text-shadow: 0 1px 4px #232733;
+} 
